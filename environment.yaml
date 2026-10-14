@@ -1,0 +1,23 @@
+name: gw-workshop
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - astropy
+  - h5py
+  - gwpy
+  - gwosc
+  - lalsuite
+  - python-ldas-tools-framecpp
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - ipywidgets
+  - pip:
+      - pycbc
