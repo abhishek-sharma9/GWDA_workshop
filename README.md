@@ -22,8 +22,8 @@ Conda manages the Python version and scientific software needed for this worksho
 ## 2. Clone the repository
 
 ```bash
-git clone https://github.com/REPLACE-OWNER/REPLACE-REPO.git
-cd REPLACE-REPO
+git clone https://github.com/abhishek-sharma9/GWDA_workshop.git
+cd GWDA_workshop
 ```
 
 ## 3. Create and activate the Conda environment
