@@ -1,8 +1,8 @@
 # Hands-on Gravitational-Wave Data Analysis 
 
-**Please complete Steps 1–5 *before* the workshop.** In particular, download the strain data in advance. You will need an internet connection for initial software installation and data download, but Notebook 1 reads the downloaded data locally. The hands-on exercises will be provided as Jupyter notebooks (`.ipynb` files).
+**Please complete Steps 1–5 *before* the workshop.** In particular, download the strain data in advance. You will need an internet connection for initial software installation and data download. The hands-on exercises will be provided as Jupyter notebooks (`.ipynb` files).
 
-## 1. Install Miniconda
+### 1. Install Miniconda
 
 Conda manages the Python version and scientific software needed for this workshop. If you already have **Miniconda, Anaconda, or Miniforge**, you can use your existing installation and skip this step.
 
@@ -19,14 +19,14 @@ Conda manages the Python version and scientific software needed for this worksho
 
 > **Windows compatibility note:** PyCBC and its low-level gravitational-wave frame dependencies are generally easier to install under Linux. If environment creation fails on native Windows, use [Windows Subsystem for Linux (WSL2)](https://learn.microsoft.com/en-us/windows/wsl/install) with an Ubuntu distribution and install Miniconda **inside WSL**; then follow the Linux instructions here. VS Code can connect to WSL through its [WSL extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl).
 
-## 2. Clone the repository
+### 2. Clone the repository
 
 ```bash
 git clone https://github.com/abhishek-sharma9/GWDA_workshop.git
 cd GWDA_workshop
 ```
 
-## 3. Create and activate the Conda environment
+### 3. Create and activate the Conda environment
 
 Run the following commands **from the repository folder**, where `environment.yaml` is located:
 
@@ -49,13 +49,13 @@ python -c "import pycbc, gwpy, lal, lalsimulation, numpy, scipy, matplotlib; fro
 
 If you see `GW workshop environment: OK`, the key Python imports succeeded.
 
-## 4. Build a jupyter kernel following the command:
+### 4. Build a jupyter kernel following the command:
 
 ```bash
 python -m ipykernel install --user --name gw-workshop --display-name "gw-workshop"
 ```
 
-## 5. Download the required GW frame files
+### 5. Download the required GW frame files
 
 With `gw-workshop` activated and while in the repository root, run:
 
@@ -63,7 +63,7 @@ With `gw-workshop` activated and while in the repository root, run:
 python download_data.py
 ```
 
-## 6. Start the jupyter lab/notebook server
+### 6. Start the jupyter lab/notebook server
 
 From the repository root, with the environment activated, run:
 
