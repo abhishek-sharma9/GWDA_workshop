@@ -63,7 +63,7 @@ With `gw-workshop` activated and while in the repository root, run:
 python download_data.py
 ```
 
-## 7. Start the jupyter lab/notebook server
+## 6. Start the jupyter lab/notebook server
 
 From the repository root, with the environment activated, run:
 
